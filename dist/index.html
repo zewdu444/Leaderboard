@@ -8,14 +8,31 @@
   <body>
     <main>
       <h1>Leaderboard</h1>
-      <section class="score_display">
-        <div class="score_notice">
-          <h2>Recent Scores</h2>
-          <button>refresh</button>
-        </div>
-        <div class="score_detail"></div>
-      </section>
-      <section class="add"></section>
+      <div class="scorelayout">
+        <section class="scoredisplay">
+          <div class="scorenotice">
+            <h2 class="recent">Recent Scores</h2>
+            <button class="refresh">Refresh</button>
+          </div>
+          <div class="scoredetail">
+            <ul>
+              <li>Name:100</li>
+              <li>Name:20</li>
+              <li>Name:50</li>
+              <li>Name:78</li>
+              <li>Name:125</li>
+              <li>Name:77</li>
+              <li>Name:42</li>
+            </ul>
+          </div>
+        </section>
+        <section class="addscore">
+          <h2>Add your score</h2>
+          <input type="text" placeholder="Your name" />
+          <input type="text" placeholder="Your score" />
+          <input class="scoresubmit" type="submit" />
+        </section>
+      </div>
     </main>
   </body>
 </html>
