@@ -1,17 +1,14 @@
-import { apiLink } from './apiURL.js';
+import { apiLink, gameID } from './apiURL.js';
 
-const gameName = {
-  name: 'MarioForever',
-};
-const createGameID = async () => {
+const sendScore = async (playerScore) => {
   try {
-    const res = await fetch(apiLink, {
+    const res = await fetch(`${apiLink + gameID}/scores`, {
       method: 'POST',
       headers: {
         'Content-Type': 'application/Json',
         charset: 'utf-8',
       },
-      body: JSON.stringify(gameName),
+      body: JSON.stringify(playerScore),
     });
 
     if (!res.ok) {
@@ -23,4 +20,4 @@ const createGameID = async () => {
     return false;
   }
 };
-export default createGameID;
+export default sendScore;

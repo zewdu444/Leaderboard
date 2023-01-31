@@ -7,7 +7,7 @@ const getScore = async () => {
       return false;
     }
     const data = await res.json();
-    return data;
+    return data.result;
   } catch (error) {
     return false;
   }
