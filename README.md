@@ -54,22 +54,23 @@ After you're finished please remove all the comments and instructions!
 
 # 📖 Leaderboard <a name="about-project"></a>
 
-> This repository a leaderboard website displays scores submitted by different players. It also allows to add score and data were preserved data external API.
+<p> This repository a leaderboard website displays scores submitted by different players. It also allows to add score and data were preserved data external API.</p>
 
 ## 🛠 Built With <a name="built-with"> </a>
 
-> HTML 5 , css3, javascript ES6, NPM and webpack.
+> HTML 5 , css3, javascript ES6, NPM, webpack and API
 
 ### Tech Stack <a name="tech-stack"></a>
 
-> HTML 5 , css3, javascript ES6, NPM and webpack
+> HTML 5 , css3, javascript ES6, NPM, webpack and API
 
 <!-- Features -->
 
 ### Key Features <a name="key-features"></a>
 
  <li>Display score</li>
- <li>Allow submit score</li>
+ <li>Submit score</li>
+ <li>Refresh sore </li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
@@ -85,10 +86,10 @@ After you're finished please remove all the comments and instructions!
 
 to run on your localhost clone the project to local folder
 
-> cd Leaderboard
-> npm i
-> npm run server
-> open your brower locate to localhost:3000
+> <p>cd Leaderboard</p>
+> <p>npm i</p>
+> <p> npm run server<p>
+> <p> open your brower locate to localhost:3000</p>
 
 ### Setup
 
@@ -108,7 +109,7 @@ In order to run this project you only need:
 
 To install this project in your local machine use
 
-> npm i
+> <p> npm i </p>
 > npm run build
 
 ### Usage
@@ -131,7 +132,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Use external API
+> Customize user interface
 
 ## 🤝 Contributing <a name="contributing"></a>
 
