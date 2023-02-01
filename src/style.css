@@ -1,3 +1,7 @@
+@import "tailwindcss/base";
+@import "tailwindcss/components";
+@import "tailwindcss/utilities";
+
 body {
   margin: 0 auto;
   background-color: #fafafa;
@@ -33,7 +37,7 @@ main {
 .addscore {
   display: flex;
   flex-direction: column;
-  width: 50%;
+  width: 30%;
 }
 
 .refresh {
@@ -44,15 +48,17 @@ main {
 
 h2 {
   margin-top: 0;
+  font-size: 30px;
 }
 
 .addscore > input {
   height: 2.1875rem;
   margin-bottom: 1.25rem;
+  border: 2px solid black;
 }
 
 .scoresubmit {
-  width: 50%;
+  width: 30%;
   align-self: flex-end;
 }
 
@@ -73,11 +79,24 @@ h1 {
 }
 
 .scoredetail > ul > li {
-  height: 30px;
+  height: 35px;
   padding-left: 5px;
   padding-top: 4%;
 }
 
 .scoredetail > ul > li:nth-child(even) {
-  background-color: #e7e9eb;
+  background-color: #ddd;
+}
+
+hr {
+  border: 2px solid black;
+  height: 30px;
+  width: 100%;
+  background-color: #c1c1c1;
+  margin-top: 5%;
+}
+
+button,
+.scoresubmit {
+  background-color: #f6f6f6;
 }

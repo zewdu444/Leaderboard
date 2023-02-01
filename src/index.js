@@ -1,5 +1,4 @@
 import './style.css';
-import '../node_modules/@fortawesome/fontawesome-free/css/all.css';
 import sendScore from './module/sendScore.js';
 import getScore from './module/getScore.js';
 import displayScore from './module/displayScore.js';
