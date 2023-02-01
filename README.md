@@ -71,7 +71,7 @@ After you're finished please remove all the comments and instructions!
  <li>Display score</li>
  <li>Submit score</li>
  <li>Refresh sore </li>
- <li>Buitiful layout </li>
+ <li>Beautiful layout </li>
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p><!-- LIVE DEMO -->
 
@@ -133,7 +133,7 @@ To run the project, execute the following command:
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-> Customize user interface
+> Responsive for all screen size
 
 ## 🤝 Contributing <a name="contributing"></a>
 
